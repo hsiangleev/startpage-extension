@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "自定义初始地址 (Custom Start URL)",
+    "name": "自定义起始页",
     "description": "覆盖新标签页并可自定义初始地址，点击扩展图标也可在新标签页打开该地址。",
     "version": "1.0.0",
     "icons": {

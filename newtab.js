@@ -1,5 +1,5 @@
 // 默认地址（当用户未设置时）
-const DEFAULT_URL = "https://www.bing.com/";
+const DEFAULT_URL = "http://10.0.0.1:8080/";
 
 // 读取设置并跳转（或在 iframe 中加载）
 chrome.storage.sync.get({ startUrl: DEFAULT_URL }, (items) => {

@@ -1,4 +1,4 @@
-const DEFAULT_URL = "https://www.bing.com/";
+const DEFAULT_URL = "http://10.0.0.1:8080/";
 const urlEl = document.getElementById("url");
 const openBtn = document.getElementById("openBtn");
 const openOptions = document.getElementById("openOptions");
