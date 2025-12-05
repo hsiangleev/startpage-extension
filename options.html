@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>扩展设置 — 自定义初始地址</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 700px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 12px;
+            padding: 8px 12px;
+        }
+
+        .hint {
+            margin-top: 10px;
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>自定义初始地址</h2>
+    <label>初始地址（URL）：
+        <input id="urlInput" type="text" placeholder="例如：https://www.google.com/" />
+    </label>
+    <button id="saveBtn">保存</button>
+    <button id="resetBtn">恢复默认</button>
+    <div class="hint">说明：该地址将在打开新标签页时自动跳转。请输入以 <code>http://</code> 或 <code>https://</code> 开头的完整 URL。</div>
+
+    <script src="./options.js"></script>
+</body>
+
+</html>

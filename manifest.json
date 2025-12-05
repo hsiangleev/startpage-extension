@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "自定义初始地址 (Custom Start URL)",
+    "description": "覆盖新标签页并可自定义初始地址，点击扩展图标也可在新标签页打开该地址。",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png"
+        }
+    },
+    "options_page": "options.html",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    }
+}
