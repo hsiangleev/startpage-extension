@@ -1,4 +1,4 @@
-const DEFAULT_URL = "http://10.0.0.1:8080/";
+const DEFAULT_URL = "http://192.168.31.41:8080/";
 const input = document.getElementById("urlInput");
 const saveBtn = document.getElementById("saveBtn");
 const resetBtn = document.getElementById("resetBtn");
